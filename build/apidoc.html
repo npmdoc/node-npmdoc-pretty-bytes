@@ -61,12 +61,109 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.pretty-bytes">module pretty-bytes</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pretty-bytes.pretty-bytes">
+            function <span class="apidocSignatureSpan"></span>pretty-bytes
+            <span class="apidocSignatureSpan">(!Number.isFinite(num)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pretty-bytes.toString">
+            function <span class="apidocSignatureSpan">pretty-bytes.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.pretty-bytes.toString">module pretty-bytes.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pretty-bytes.toString.toString">
+            function <span class="apidocSignatureSpan">pretty-bytes.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.pretty-bytes" id="apidoc.module.pretty-bytes">module pretty-bytes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.pretty-bytes.pretty-bytes" id="apidoc.element.pretty-bytes.pretty-bytes">
+        function <span class="apidocSignatureSpan"></span>pretty-bytes
+        <span class="apidocSignatureSpan">(!Number.isFinite(num)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">num =&#x3e; {
+	if (!Number.isFinite(num)) {
+		throw new TypeError(`Expected a finite number, got ${typeof num}: ${num}`);
+	}
+
+	const neg = num &#x3c; 0;
+
+	if (neg) {
+		num = -num;
+	}
+
+	if (num &#x3c; 1) {
+		return (neg ? &#x27;-&#x27; : &#x27;&#x27;) + num + &#x27; B&#x27;;
+	}
+
+	const exponent = Math.min(Math.floor(Math.log(num) / Math.log(1000)), UNITS.length - 1);
+	const numStr = Number((num / Math.pow(1000, exponent)).toPrecision(3));
+	const unit = UNITS[exponent];
+
+	return (neg ? &#x27;-&#x27; : &#x27;&#x27;) + numStr + &#x27; &#x27; + unit;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pretty-bytes.toString" id="apidoc.element.pretty-bytes.toString">
+        function <span class="apidocSignatureSpan">pretty-bytes.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.pretty-bytes.toString" id="apidoc.module.pretty-bytes.toString">module pretty-bytes.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.pretty-bytes.toString.toString" id="apidoc.element.pretty-bytes.toString.toString">
+        function <span class="apidocSignatureSpan">pretty-bytes.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 

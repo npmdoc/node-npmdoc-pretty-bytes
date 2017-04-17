@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/sindresorhus/pretty-bytes#readme"
-
-    >pretty-bytes (v4.0.2)</a>
+    <a href="https://github.com/sindresorhus/pretty-bytes#readme">pretty-bytes (v4.0.2)</a>
 </h1>
-<h4>Convert bytes to a human readable string: 1337 → 1.34 kB</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<h4>Convert bytes to a human readable string: 1337 â†’ 1.34 kB</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.pretty-bytes">module pretty-bytes</a><ol>
 
@@ -107,26 +100,26 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">num =&#x3e; {
+    <li>description and source-code<pre class="apidocCodePre">num =&gt; {
 	if (!Number.isFinite(num)) {
 		throw new TypeError(`Expected a finite number, got ${typeof num}: ${num}`);
 	}
 
-	const neg = num &#x3c; 0;
+	const neg = num &lt; 0;
 
 	if (neg) {
 		num = -num;
 	}
 
-	if (num &#x3c; 1) {
-		return (neg ? &#x27;-&#x27; : &#x27;&#x27;) + num + &#x27; B&#x27;;
+	if (num &lt; 1) {
+		return (neg ? '-' : '') + num + ' B';
 	}
 
 	const exponent = Math.min(Math.floor(Math.log(num) / Math.log(1000)), UNITS.length - 1);
 	const numStr = Number((num / Math.pow(1000, exponent)).toPrecision(3));
 	const unit = UNITS[exponent];
 
-	return (neg ? &#x27;-&#x27; : &#x27;&#x27;) + numStr + &#x27; &#x27; + unit;
+	return (neg ? '-' : '') + numStr + ' ' + unit;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -173,3 +166,4 @@
     ]
 </div>
 </div>
+</body></html>
