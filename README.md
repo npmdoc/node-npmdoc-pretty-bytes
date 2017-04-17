@@ -1,9 +1,11 @@
 # api documentation for  [pretty-bytes (v4.0.2)](https://github.com/sindresorhus/pretty-bytes#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pretty-bytes.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pretty-bytes) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pretty-bytes.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pretty-bytes)
 #### Convert bytes to a human readable string: 1337 → 1.34 kB
 
-[![NPM](https://nodei.co/npm/pretty-bytes.png?downloads=true)](https://www.npmjs.com/package/pretty-bytes)
+[![NPM](https://nodei.co/npm/pretty-bytes.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pretty-bytes)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-pretty-bytes/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-pretty-bytes_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pretty-bytes/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-pretty-bytes/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-pretty-bytes/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-pretty-bytes/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-pretty-bytes/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-pretty-bytes/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +20,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -59,13 +60,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "pretty-bytes",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/pretty-bytes.git"
@@ -76,16 +75,6 @@
     "version": "4.0.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module pretty-bytes](#apidoc.module.pretty-bytes)
-
-
-
-# <a name="apidoc.module.pretty-bytes"></a>[module pretty-bytes](#apidoc.module.pretty-bytes)
 
 
 
