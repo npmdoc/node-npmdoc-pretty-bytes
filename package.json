@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "pretty-bytes",
-    "description": "api documentation for [pretty-bytes (v4.0.2)](https://github.com/sindresorhus/pretty-bytes#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-pretty-bytes.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pretty-bytes) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pretty-bytes.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pretty-bytes)",
+    "description": "#### basic api documentation for  [pretty-bytes (v4.0.2)](https://github.com/sindresorhus/pretty-bytes#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pretty-bytes.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pretty-bytes) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pretty-bytes.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pretty-bytes)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "pretty-bytes": "*",

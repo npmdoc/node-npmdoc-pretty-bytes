@@ -1,4 +1,7 @@
-# api documentation for  [pretty-bytes (v4.0.2)](https://github.com/sindresorhus/pretty-bytes#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pretty-bytes.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pretty-bytes) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pretty-bytes.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pretty-bytes)
+# npmdoc-pretty-bytes
+
+#### basic api documentation for  [pretty-bytes (v4.0.2)](https://github.com/sindresorhus/pretty-bytes#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pretty-bytes.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pretty-bytes) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pretty-bytes.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pretty-bytes)
+
 #### Convert bytes to a human readable string: 1337 → 1.34 kB
 
 [![NPM](https://nodei.co/npm/pretty-bytes.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pretty-bytes)
@@ -72,7 +75,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "4.0.2"
+    "version": "4.0.2",
+    "bin": {}
 }
 ```
 
